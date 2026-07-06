@@ -139,6 +139,7 @@ video.result__video {
 .search-form__fieldset-title {
   margin-bottom: 5px;
   font-size: 18px;
+  font-weight: 400;
   line-height: 1;
 }
 
@@ -200,7 +201,7 @@ video.result__video {
 .title {
   margin: 0;
   font-size: 75px;
-  line-height: 0.9;
+  line-height: 0.94;
   text-transform: uppercase;
   color: #fff;
   width: 260px;
@@ -237,11 +238,26 @@ video.result__video {
   flex-grow: 1;
 }
 
+.content__video-card-title {
+  text-transform: uppercase;
+}
+
 .content__video-card-description, .content__video-card-title {
   width: 200px;
+  overflow: hidden;
+}
+
+.content__video-card-title {
   text-overflow: ellipsis;
   white-space: nowrap;
-  overflow: hidden;
+}
+
+.content__video-card-description {
+  line-height: 16.2px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  white-space: normal;
 }
 
 .content__card-link_current {
@@ -267,6 +283,7 @@ video.result__video {
   font: inherit;
   font-weight: bold;
   cursor: pointer;
+  height: 34px;
 }
 
 .button:hover {
