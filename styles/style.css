@@ -95,6 +95,7 @@ video.result__video {
 
 .content__card-link:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .content__card-link {
@@ -247,6 +248,9 @@ video.result__video {
   text-overflow: ellipsis;
   white-space: nowrap;
   text-transform: uppercase;
+  font-weight: '700';
+  line-height: 100%;
+  font-size: 30px;
 }
 
 .content__video-card-description {
@@ -255,6 +259,7 @@ video.result__video {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
   white-space: normal;
+  margin-top: 6px;
 }
 
 .content__card-link_current {
