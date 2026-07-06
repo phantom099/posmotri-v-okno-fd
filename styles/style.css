@@ -238,10 +238,6 @@ video.result__video {
   flex-grow: 1;
 }
 
-.content__video-card-title {
-  text-transform: uppercase;
-}
-
 .content__video-card-description, .content__video-card-title {
   width: 200px;
   overflow: hidden;
@@ -250,6 +246,7 @@ video.result__video {
 .content__video-card-title {
   text-overflow: ellipsis;
   white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .content__video-card-description {
